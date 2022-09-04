@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    width: 100vw;
+    margin: auto;
+    background-color: #fff1fd;
+}
+
+.home{
+
+    margin-top: 10px;
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1000px;
+        width: 80vw;
+        margin: auto;
+
+        .containerLogo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 40px;
+                height: 40PX;
+            }
+
+            h1{
+                font-size: 20px;
+                margin: 0 5px;
+            }
+        }
+
+        .navDesktop{
+
+            ul{
+                display: flex;
+
+                li{
+                    list-style: none;
+                    margin: 5px;
+
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 14px;
+                        padding: 5px;
+                        border-radius: 10px;
+                        position: relative;
+                    }
+
+                    .buttonNav::before{
+                        content: "";
+                        position: absolute;
+                        width: 0%;
+                        height: 2px;
+                        background-color: #7fb26f;
+                        text-align: start;
+                        transition: 0.5s;
+                        top: 25px;
+                    }
+
+                    .buttonNav:hover::before{
+                        width: 85%;
+                    }
+                }
+
+                .lastButton a{
+                    color: #Fff;
+                    background-color: #7fb26f;
+                    border: solid 1px #7fb26f;
+                    transition: 0.2s;
+                }
+
+                .lastButton a:hover{
+                    color: #7fb26f;
+                    background-color: #Fff;
+                }
+
+                .lastButton a:active{
+                    color: #Fff;
+                    background-color: #7fb26f;
+                }
+            }
+        }
+    }
+}
+
+.sectionHome{
+
+    position: relative;
+    height: 480px;
+    max-width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wave{
+        position: absolute;
+        top: -170px;
+        z-index: -100;
+        width: 1800px;
+    }
+
+    .conteinerHome{
+        max-width: 1000px;
+        width: 80vw;
+        text-align: end;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            width: 50%;
+            height: 50%;
+            max-width: 300px;
+            margin: 0%;
+        }
+        h2{
+            font-size: 60px;
+            margin: 0;
+            text-shadow: 2px 2px 2px #fff;
+        }
+
+        div{
+            width: 400px;
+            float: right;
+
+             button{
+                //  background-color: #Fff;
+                 border: 1px solid #7fb26f;
+                 border-radius: 10px;
+                 padding: 10px;
+                 cursor: pointer;
+
+                 background-color: #7fb26f;
+                 color: #fff;
+                 text-shadow: 1px 1px #000;
+                 margin: 5px;
+             }
+
+             button:hover{
+                color: #000;
+                background-color: rgb(127, 178, 111, 0.5);
+                text-shadow: 1px 1px #fff;
+             }
+         }
+    }
+}
+
+.menu{
+    width: 30px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.closeMenu{
+    width: 30px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+
+    ul{
+        position: relative;
+        top: 15px;
+        left: -230px;
+        z-index: 100;
+        text-align: center;
+        transition: 1s;
+
+        li{
+            list-style: none;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #7fb26f;
+            width: 175px;
+            border: 1px solid #000;
+
+            a{
+                padding: 5px;
+                text-decoration: none;
+                color: #000;
+                
+            }
+        }
+        li:hover{
+            background-color: #fff;
+            transition: 0.3s;
+        }
+    }
+}
+
+
+
+
+//------------------------ SERVICES --------------------------
+
+.services{
+    position: relative;
+    max-width: 100vw;
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    .secondWave{
+        position: absolute;
+        z-index: -250;
+        margin: auto;
+        width: 1800px;
+    }
+
+    .articles{
+        display: flex;
+        text-align: center;
+        max-width: 1000px;
+        width: 80vw;
+        margin: 0 auto;
+        margin-top: 30px;
+        
+        article{
+            max-width: 33.333%;
+            padding: 15px;
+
+            img{
+                width: 48px;
+            }
+    
+            h3{
+                text-shadow: 2px 2px 1px #fff;
+            }
+        }
+
+    }
+}
+
+.about{
+
+    text-align: center;
+    max-width: 1000px;
+    width: 80vw;
+    margin: 50px auto;
+
+    .info{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 0;
+
+        .imageAbout{
+            width: 300px;
+            height: 300px;
+            padding: 5px;
+            border-radius: 150px;
+            border: solid;
+            overflow: hidden;
+            position: relative;
+
+            img{
+                position: absolute;
+                width: 400px;
+                top: 41px;
+                left: -23px;
+                padding: 5px;
+            }
+        }
+
+
+
+        div{
+            max-width: 380px;
+            width: 50%;
+        }
+    }
+}
+
+
+.slide{
+
+    img{
+        width: 100%;
+        max-width: 150px;
+        height: 50px;
+    }
+}
+
+.gallery{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    padding: 120px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .wave3{
+        position: absolute;
+        z-index: -200;
+        top: -270px;
+        width: 1800px;
+    }
+
+    .wave4{
+        position: absolute;
+        z-index: -200;
+        width: 1800px;
+        bottom: -200px;
+    }
+    h3{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .album{
+        width: 80vw;
+        max-width: 1000px;
+
+        div{
+            text-align: center;
+
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            max-width: 300px;
+            max-height: 300px;
+            margin: 5px;
+            
+        }
+
+        .carousel-initialized{
+            height: 630px;
+        }
+
+
+    }
+}
+
+.fondoVerde{
+    background-color: #7fb26f;
+    width: 1800px;
+    height: 200px;
+    position: absolute;
+    top: 850px;
+    z-index: -250;
+}
+
+//-----------------------------------------CONTACT
+
+.contact{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+
+    .contenedorContact{
+        background: #7fb26f;
+        width: 1800px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 30px;
+
+        .infoContact{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 0px;
+            grid-auto-rows: minmax(50px, auto);
+            margin: 0 15px;
+            align-items: center;
+            grid-gap: 20px;
+
+            .titleContact{
+                font-size: 55px;
+                margin: 0;
+
+                grid-column: 1 / 3;
+                grid-row: 1;
+            }
+
+            .iconsContact{
+                max-width: 48px;
+                display: flex;
+                align-items: center;
+
+                a{
+                    img{
+                        margin: 5px;
+                        width: 50px;
+                    }
+                    transition: 0.5s;
+                    padding: 0 3.5px;
+
+                    
+                }
+
+                a:hover{
+                    transform: translateY(-10px)
+                }
+            }
+
+            .iconsContact a:last-child{
+                    padding: 0;
+                    img{
+                        width: 65px;
+                    }
+            
+            }
+        }
+
+
+    }
+}
+
+
+//----------------------------------------responsive
+
+@media only screen and (max-width: 970px){
+    .menu{
+        display: flex;
+        z-index: 200;
+    }
+
+    .closeMenu{
+        display: flex;
+        z-index: 200;
+    }
+
+    .navDesktop{
+        display: none;
+    }
+
+    .sectionHome .conteinerHome {
+        top: 20px;
+    }
+
+    .sectionHome .conteinerHome h2 {
+        font-size: 50px;
+    }
+
+    .sectionHome .conteinerHome div {
+        width: 300px;
+    }
+
+    .about .info .imageAbout {
+        width: 200px;
+        height: 200px;
+    }
+
+    .gallery{
+        
+        .album{
+            img{
+                width: 80%;
+            }
+
+            .carousel-initialized{
+                height: 480px;
+            }
+        }
+    }
+
+    .fondoVerde{
+        top: 680px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .sectionHome .conteinerHome p {
+        margin: 0;
+    }
+
+    .gallery{
+        
+        .album{
+
+            .carousel-initialized{
+                height: 390px;
+            }
+        }
+    }
+
+    .contact{
+    
+        .contenedorContact{
+
+            flex-direction: column-reverse;
+        }
+    }
+
+    .fondoVerde{
+        top: 590px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    .conteinerHome{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+        top: -200px;
+    }
+
+    .conteinerHome div {
+        position: relative;
+        top: 230px;
+    }
+
+    .sectionHome .conteinerHome div {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .sectionHome .wave {
+        top: -114px;
+    }
+
+    .sectionHome .conteinerHome {
+        top: -260px;
+    }
+
+    .sectionHome .conteinerHome div button {
+        background-color: #7fb26f;
+        color: #fff;
+        text-shadow: 1px 1px #000;
+        margin: 5px;
+    }
+
+    .sectionHome .conteinerHome img {
+        position: relative;
+        top: 270px;
+    }
+
+    .services{
+        height: 750px;
+    }
+
+    .services .articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .services .articles article{
+        min-width: 300px;
+    }
+
+    .about .info{
+        flex-direction: column;
+
+    }
+
+    .about .info div{
+        width: 80%;
+    }
+
+    .gallery{
+
+        .wave4{
+            bottom: -240px;
+        }
+        
+        .album{
+            img{
+                max-width: 150px;
+                max-height: 150px;
+            }
+
+            .carousel-initialized{
+                height: 300px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .sectionHome .conteinerHome h2 {
+        font-size: 40px;
+    }
+
+    .home header .containerLogo img {
+        width: 25px;
+        height: 25PX;
+    }
+
+    .home header .containerLogo h1 {
+        font-size: 16px;
+    }
+
+    .sectionHome .wave {
+        top: -90px;
+    }
+
+    .gallery{
+
+        .wave3{
+            top: -52px;
+            height: 500px;
+        }
+        .wave4{
+            bottom: -100px;
+            height: 520px;
+        }
+        
+        .album{
+            img{
+                width: 80%;
+            }
+
+            .carousel-initialized{
+                height: 450px;
+            }
+        }
+    }
+
+    .fondoVerde{
+        top: 650px;
+    }
+
+    .titleContact h3{
+        margin: 0;
+    }
+
+}
