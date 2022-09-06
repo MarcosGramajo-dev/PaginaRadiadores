@@ -304,7 +304,8 @@ body {
 .contact .wave4 {
   position: absolute;
   width: 1800px;
-  top: -250px;
+  top: -150px;
+  z-index: 300;
 }
 .contact .contenedorContact {
   background: #7fb26f;
@@ -378,14 +379,14 @@ body {
     width: 200px;
     height: 200px;
   }
+  .gallery {
+    padding-bottom: 30px;
+  }
   .gallery .album img {
     width: 80%;
   }
   .gallery .album .carousel-initialized {
     height: 480px;
-  }
-  .fondoVerde {
-    top: 680px;
   }
 }
 @media only screen and (max-width: 750px) {
@@ -398,8 +399,8 @@ body {
   .contact .contenedorContact {
     flex-direction: column-reverse;
   }
-  .fondoVerde {
-    top: 590px;
+  .contact .wave4 {
+    top: -190px;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -500,7 +501,7 @@ body {
     margin: 0;
   }
   .contact .wave4 {
-    top: -310px;
+    top: -230px;
   }
 }
 

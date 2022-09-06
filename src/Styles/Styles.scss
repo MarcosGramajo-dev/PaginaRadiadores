@@ -366,7 +366,8 @@ body{
     .wave4{
         position: absolute;
         width: 1800px;
-        top: -250px;
+        top: -150px;
+        z-index: 300;
     }
 
     .contenedorContact{
@@ -465,7 +466,7 @@ body{
     }
 
     .gallery{
-        
+        padding-bottom: 30px;
         .album{
             img{
                 width: 80%;
@@ -476,10 +477,6 @@ body{
             }
         }
     }
-
-    .fondoVerde{
-        top: 680px;
-    }
 }
 
 @media only screen and (max-width: 750px){
@@ -488,6 +485,7 @@ body{
     }
 
     .gallery{
+
         
         .album{
 
@@ -505,8 +503,8 @@ body{
         }
     }
 
-    .fondoVerde{
-        top: 590px;
+    .contact .wave4{
+        top: -190px;
     }
 }
 
@@ -644,7 +642,9 @@ body{
     }
 
     .contact .wave4{
-        top: -310px;
+        top: -230px;
     }
+
+    
 
 }

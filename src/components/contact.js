@@ -1,4 +1,4 @@
-// import wave from '../images/wave5.svg'
+import wave from '../images/wave5.svg'
 // import Maps from './map'
 import whatsapp from '../images/iconWhatsapp.svg'
 import facebook from '../images/iconFacebook.svg'
@@ -9,7 +9,7 @@ export default function Contact(){
 
     return(
         <div className="contact" id="contact">
-            {/* <img className="wave4" src={wave2} alt="#"/> */}
+            <img className="wave4" src={wave} alt="#"/>
             <div className="contenedorContact">
                 <div className="mapa">
                 <div>
