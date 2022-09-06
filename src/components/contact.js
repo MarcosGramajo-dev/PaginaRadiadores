@@ -42,6 +42,7 @@ export default function Contact(){
                         <a href="google.com"><img src={location} alt="ubicacion"/></a>
                     </div>
                 </div>
+                <></>
 
             </div>
         </div>
