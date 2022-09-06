@@ -1,9 +1,9 @@
 // import wave from '../images/wave5.svg'
-import Maps from './map'
+// import Maps from './map'
 import whatsapp from '../images/iconWhatsapp.svg'
 import facebook from '../images/iconFacebook.svg'
 import location from '../images/iconLocation.png'
-import wave2 from '../images/wave4.svg'
+
 
 export default function Contact(){
 
@@ -12,7 +12,9 @@ export default function Contact(){
             <img className="wave4" src={wave2} alt="#"/>
             <div className="contenedorContact">
                 <div className="mapa">
-                    <Maps/>
+                <div>
+                    {/* <Maps/> */}
+                </div>
                 </div>
                 <div className="infoContact">
                     <div className="titleContact">
