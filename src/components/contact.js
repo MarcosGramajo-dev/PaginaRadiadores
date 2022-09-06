@@ -9,7 +9,7 @@ export default function Contact(){
 
     return(
         <div className="contact" id="contact">
-            <img className="wave4" src={wave2} alt="#"/>
+            {/* <img className="wave4" src={wave2} alt="#"/> */}
             <div className="contenedorContact">
                 <div className="mapa">
                 <div>
