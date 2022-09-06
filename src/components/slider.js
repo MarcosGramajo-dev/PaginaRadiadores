@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Slider from 'infinite-react-carousel';
+import Slider from "react-slick";
 
 import marca1 from '../images/marca1.jpg'
 import marca2 from '../images/marca2.png'
@@ -12,28 +12,28 @@ import marca7 from '../images/marca7.png'
 
 export default function Slide() {
 
-  let show = 2;
+  let show = 3;
+  
 
-  screen();
-
-  function screen(){
-    if(window.screen.width < 600){
+  function slide(){
+    if(window.screen.width < 650){
       show = 1
     }
   }
 
-    const settings =  {
-      accessibility: false,
-      arrows: false,
-      arrowsBlock: false,
-      autoplay: true,
-      centerMode: true,
-      centerPadding: 60,
-      duration: 100,
-      pauseOnHover: false,
-      slidesToShow: show,
-    }
+  slide();
 
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: show,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 4000,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    arrows: false
+  };
     
 
     return (

@@ -292,6 +292,7 @@ body{
         width: 100%;
         max-width: 150px;
         height: 50px;
+        margin: auto;
     }
 }
 
@@ -300,7 +301,8 @@ body{
     overflow: hidden;
     display: flex;
     margin: auto;
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 80px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -310,13 +312,6 @@ body{
         z-index: -200;
         top: -270px;
         width: 1800px;
-    }
-
-    .wave4{
-        position: absolute;
-        z-index: -200;
-        width: 1800px;
-        bottom: -200px;
     }
     h3{
         text-align: center;
@@ -337,7 +332,7 @@ body{
             height: 100%;
             max-width: 300px;
             max-height: 300px;
-            margin: 5px;
+            margin: auto;
             
         }
 
@@ -349,12 +344,12 @@ body{
     }
 }
 
-.fondoVerde{
-    background-color: #7fb26f;
+.fondoGris{
+    background-color: #e6e6e6;
     width: 1800px;
-    height: 200px;
+    height: 500px;
     position: absolute;
-    top: 850px;
+    top: 600px;
     z-index: -250;
 }
 
@@ -368,6 +363,12 @@ body{
     justify-content: center;
     top: 0px;
 
+    .wave4{
+        position: absolute;
+        width: 1800px;
+        top: -250px;
+    }
+
     .contenedorContact{
         background: #7fb26f;
         width: 1800px;
@@ -375,6 +376,7 @@ body{
         justify-content: space-evenly;
         align-items: center;
         padding-bottom: 30px;
+        padding-top: 100px;
 
         .infoContact{
             display: grid;
@@ -611,6 +613,7 @@ body{
     }
 
     .gallery{
+        padding-bottom: 33px;
 
         .wave3{
             top: -52px;
@@ -632,12 +635,16 @@ body{
         }
     }
 
-    .fondoVerde{
-        top: 650px;
+    .fondoGris{
+        top: 300px;
     }
 
     .titleContact h3{
         margin: 0;
+    }
+
+    .contact .wave4{
+        top: -310px;
     }
 
 }

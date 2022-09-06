@@ -3,11 +3,13 @@ import Maps from './map'
 import whatsapp from '../images/iconWhatsapp.svg'
 import facebook from '../images/iconFacebook.svg'
 import location from '../images/iconLocation.png'
+import wave2 from '../images/wave4.svg'
 
 export default function Contact(){
 
     return(
         <div className="contact" id="contact">
+            <img className="wave4" src={wave2} alt="#"/>
             <div className="contenedorContact">
                 <div className="mapa">
                     <Maps/>
