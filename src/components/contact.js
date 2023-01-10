@@ -35,9 +35,9 @@ export default function Contact(){
                         <p>8 A 18 HS</p>
                     </div>
                     <div className="iconsContact">
-                        <a href="https://wa.me/5493815355689" target="_blank"><img src={whatsapp} alt="whatsapp"/></a>
-                        <a href="google.com" target="_blank"><img src={facebook} alt="facebook"/></a>
-                        <a href="https://www.google.com/search?q=radiadores+gramajo+moreira&rlz=1C1ALOY_esAR1034AR1034&sxsrf=AJOqlzW5H7-gd-2cd4Gyv2IbSgtrapKWOQ%3A1673372419662&ei=A6O9Y7eNKPC_5OUPsviHqAI&gs_ssp=eJzj4tZP1zcsyU42LzapNGC0UjWosDQxMjJNtTAwM01KNU8zTrMyqEizNLJIS0w0T0kzSDExMrT0kipKTMlMTMkvSi1WSC9KzE3MylfIBfIyixIBrqwZIg&oq=radiado&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgBMgQIIxAnMgoILhDHARCvARAnMgQIIxAnMgUIABCABDILCC4QgAQQxwEQrwEyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDITCC4QxwEQrwEQ3AQQ3QQQ4AQYAjoHCCMQsAMQJzoKCAAQRxDWBBCwAzoECAAQQzoLCC4QgAQQxwEQ0QM6CgguEMcBENEDEEM6BQguEIAEOgcIABCABBAKOgcIIxDqAhAnOg0ILhDHARDRAxDqAhAnOgwIABDqAhC0AhBDGAE6DggAEOoCELQCEAoQQxgBOggILhCABBDUAkoECEEYAEoECEYYAVDHA1j8GWDJKGgGcAF4AIABkQGIAb8JkgEEMC4xMJgBAKABAbABEcgBCsABAdoBBggBEAEYAdoBBggCEAEYFA&sclient=gws-wiz-serp" target="_blank"><img src={location} alt="ubicacion"/></a>
+                        <a href="https://wa.me/5493815355689" target="_blank" rel="noreferrer"><img src={whatsapp} alt="whatsapp"/></a>
+                        <a href="google.com" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook"/></a>
+                        <a href="https://www.google.com/search?q=radiadores+gramajo+moreira&rlz=1C1ALOY_esAR1034AR1034&sxsrf=AJOqlzW5H7-gd-2cd4Gyv2IbSgtrapKWOQ%3A1673372419662&ei=A6O9Y7eNKPC_5OUPsviHqAI&gs_ssp=eJzj4tZP1zcsyU42LzapNGC0UjWosDQxMjJNtTAwM01KNU8zTrMyqEizNLJIS0w0T0kzSDExMrT0kipKTMlMTMkvSi1WSC9KzE3MylfIBfIyixIBrqwZIg&oq=radiado&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgBMgQIIxAnMgoILhDHARCvARAnMgQIIxAnMgUIABCABDILCC4QgAQQxwEQrwEyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDITCC4QxwEQrwEQ3AQQ3QQQ4AQYAjoHCCMQsAMQJzoKCAAQRxDWBBCwAzoECAAQQzoLCC4QgAQQxwEQ0QM6CgguEMcBENEDEEM6BQguEIAEOgcIABCABBAKOgcIIxDqAhAnOg0ILhDHARDRAxDqAhAnOgwIABDqAhC0AhBDGAE6DggAEOoCELQCEAoQQxgBOggILhCABBDUAkoECEEYAEoECEYYAVDHA1j8GWDJKGgGcAF4AIABkQGIAb8JkgEEMC4xMJgBAKABAbABEcgBCsABAdoBBggBEAEYAdoBBggCEAEYFA&sclient=gws-wiz-serp" target="_blank" rel="noreferrer"><img src={location} alt="ubicacion"/></a>
                     </div>
                 </div>
                 <></>
