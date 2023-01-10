@@ -65,9 +65,9 @@ export default function Home() {
                         VENTA Y REPARACIÓN
                     </h2>
 
-                    <p>Venta y reparación de radiadores y enfriadores de todo tipo</p>
+                    <p>Venta, reparación de radiadores y enfriadores de todo tipo</p>
 
-                    <button>CONTACTENOS</button>
+                    <a href="#contact">CONTACTENOS</a>
                 </div>
             </div>
 

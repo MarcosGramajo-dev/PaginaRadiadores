@@ -113,7 +113,7 @@ body {
   width: 400px;
   float: right;
 }
-.sectionHome .conteinerHome div button {
+.sectionHome .conteinerHome div a {
   border: 1px solid #7fb26f;
   border-radius: 10px;
   padding: 10px;
@@ -122,8 +122,9 @@ body {
   color: #fff;
   text-shadow: 1px 1px #000;
   margin: 5px;
+  text-decoration: none;
 }
-.sectionHome .conteinerHome div button:hover {
+.sectionHome .conteinerHome div a:hover {
   color: #000;
   background-color: rgba(127, 178, 111, 0.5);
   text-shadow: 1px 1px #fff;
