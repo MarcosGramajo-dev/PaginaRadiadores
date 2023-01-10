@@ -4,7 +4,6 @@ body {
   padding: 0;
   font-size: 16px;
   font-family: "Rajdhani", sans-serif;
-  width: 100vw;
   margin: auto;
   background-color: #fff1fd;
 }
@@ -267,7 +266,7 @@ body {
   font-size: 30px;
 }
 .gallery .album {
-  width: 80vw;
+  width: 95%;
   max-width: 1000px;
 }
 .gallery .album div {
@@ -279,6 +278,7 @@ body {
   max-width: 300px;
   max-height: 300px;
   margin: auto;
+  cursor: pointer;
 }
 .gallery .album .carousel-initialized {
   height: 630px;
@@ -354,6 +354,42 @@ body {
   width: 65px;
 }
 
+.modal{
+  position: absolute;
+  z-index: 1000;
+  width: 100vw;
+  height: 100%;
+  background-color: #d3d3d3b5;
+}
+
+.modal div{
+  position: relative;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.imgSelect{
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+}
+
+.close{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.slick-dots{
+  bottom: -40px !important;
+}
+
 @media only screen and (max-width: 970px) {
   .menu {
     display: flex;
@@ -404,6 +440,9 @@ body {
   }
 }
 @media only screen and (max-width: 650px) {
+  .imgSelect{
+    width: 70%;
+  }
   .conteinerHome {
     display: flex;
     flex-direction: column-reverse;
@@ -464,6 +503,9 @@ body {
   }
 }
 @media only screen and (max-width: 500px) {
+  .imgSelect{
+    width: 85%;
+  }
   .sectionHome .conteinerHome h2 {
     font-size: 40px;
   }
@@ -503,6 +545,18 @@ body {
   .contact .wave4 {
     top: -230px;
   }
+  .slick-dots{
+    bottom: -66px !important;
+  }
 }
+
+@media only screen and (max-width: 350px) {
+  .imgSelect{
+    width: 95%;
+  }
+}
+
+
+
 
 /*# sourceMappingURL=Styles.css.map */

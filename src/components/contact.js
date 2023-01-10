@@ -18,21 +18,19 @@ export default function Contact(){
                 </div>
                 <div className="infoContact">
                     <div className="titleContact">
-                        <h3>Te esperamos!</h3>
+                        <h3>TE ESPERAMOS!</h3>
                     </div>
                     <div className="local">
-                        <p>LOCAL</p>
+                        <p>LOCAL:</p>
                         <p>AV JUAN B JUSTO 2649</p>
                         <p>SAN MIGUEL DE TUCUMÁN - TUCUMÁN</p>
                     </div>
                     <div className="telefono">
                         <p>TELEFONOS</p>
-                        <p>0381-4552069</p>
-                        <p>0381-1111111</p>
-                        <p>EMAIL: CONTACTS@COMPANY.COM</p>
+                        <p>381-4552069 | 381-5355689</p>
                     </div>
                     <div className="contacto">
-                        <p>HORARIO</p>
+                        <p>HORARIOS:</p>
                         <p>LUNEA A VIERNES</p>
                         <p>8 A 18 HS</p>
                     </div>
