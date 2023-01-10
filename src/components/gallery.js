@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Slider from "react-slick";
 import wave from '../images/wave3.svg'
-import foto1 from '../images/fotoGaleria1.jpg'
 import close from '../images/close.png'
 
 
@@ -62,7 +61,7 @@ export default function Gallery() {
 
          
         <div className="fondoGris"></div>
-        { toggleShadow ? <div className="modal"> <img className="close" src={close} onClick={() => modal()}/> <div> <img className="imgSelect" src={imgSelect}/> </div> </div> : ""}
+        { toggleShadow ? <div className="modal"> <img className="close" src={close} onClick={() => modal()}/> <div> <img className="imgSelect" src={imgSelect} alt="#"/> </div> </div> : ""}
 
        </div>
 
