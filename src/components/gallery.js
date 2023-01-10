@@ -61,7 +61,7 @@ export default function Gallery() {
 
          
         <div className="fondoGris"></div>
-        { toggleShadow ? <div className="modal"> <img className="close" src={close} onClick={() => modal()}/> <div> <img className="imgSelect" src={imgSelect} alt="#"/> </div> </div> : ""}
+        { toggleShadow ? <div className="modal"> <img className="close" src={close} onClick={() => modal()} alt="#"/> <div> <img className="imgSelect" src={imgSelect} alt="#"/> </div> </div> : ""}
 
        </div>
 
