@@ -61,7 +61,7 @@ export default function Home() {
             </div>
             <div className="bgHome"/>
             <div style={{textAlign: 'center', position: 'relative', top:'25px'}}>
-                <h1 style={{margin:'0', color: '#000000', fontSize: '80px'}} > RADIADORES </h1>
+                <h1 style={{margin:'0', color: '#000000', fontSize: '80px', textShadow: '1px 1px 2px white'}} > RADIADORES </h1>
                 <h1 style={{margin:'0', color: '#ffffff', fontSize: '80px'}}>GRAMAJO MOREIRA</h1>
                 <h3 style={{margin:'0', color: '#ffffff'}}>Venta y reparación</h3>
             </div>
