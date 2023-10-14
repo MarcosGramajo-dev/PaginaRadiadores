@@ -12,7 +12,7 @@ export default function Home() {
 
     function nav(){
         return(
-            <ul>
+            <ul className='navMobile'>
                 <li><a className="buttonNav" href="#home">INICIO</a></li>
                 <li><a className="buttonNav" href="#service">NUESTROS SERVICIOS</a></li>
                 <li><a className="buttonNav" href="#about">¿QUIENES SOMOS?</a></li>
