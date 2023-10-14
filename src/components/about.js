@@ -27,25 +27,25 @@ export default function About(){
                         <div className="card">
                             <img src={bgImage1} alt="bgImage1"/>
                             <div>
-                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '400',padding: '0 10px'}} >CAMBIOS DE PANEL</p>
+                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '800',padding: '0 10px'}} >CAMBIOS DE PANEL</p>
                             </div>
                         </div>
                         <div className="card">
                             <img src={bgImage2} alt="bgImage2"/>
                             <div>
-                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '400',padding: '0 10px'}} >COLOCACION DE RADIADORES</p>
+                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '800',padding: '0 10px'}} >COLOCACION DE RADIADORES</p>
                             </div>
                         </div>
                         <div className="card">
                             <img src={bgImage3} alt="bgImage3"/>
                             <div>
-                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '400',padding: '0 10px'}} >FABRICACION DE CAJAS EN ALUMINIO</p>
+                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '800',padding: '0 10px'}} >FABRICACION DE CAJAS EN ALUMINIO</p>
                             </div>
                         </div>
                         <div className="card">
                             <img src={bgImage4} alt="bgImage4"/>
                             <div>
-                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '400',padding: '0 10px'}} >LIMPIEZA DE RADIADORES</p>
+                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '800',padding: '0 10px'}} >LIMPIEZA DE RADIADORES</p>
                             </div>
                         </div>
                     </div>

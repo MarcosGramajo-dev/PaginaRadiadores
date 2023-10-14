@@ -24,7 +24,7 @@ export default function About(){
                 <div style={{width:'100%', maxWidth:'1100px', display:'flex', margin:'auto'}}>
                     <div className="point">
                         <img src={point1} alt="point1"/>
-                        <p >Contactenos por <a href="/">Aqui</a></p>
+                        <p >Contactenos por <a href="#contact">Aqui</a></p>
                     </div>
                     <div className="point">
                         <img src={point2} alt="point2"/>

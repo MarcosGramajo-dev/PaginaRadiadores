@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+*{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -708,6 +712,7 @@ body {
   }
   .gallery {
     padding-bottom: 33px;
+    margin-bottom: 30px;
   }
   .gallery .wave3 {
     top: -52px;

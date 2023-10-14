@@ -55,7 +55,7 @@ export default function Home() {
         </header>
 
 
-        <section className="sectionHome">
+        <section className="sectionHome" id="home">
             <div className="bgImage">
                 <img src={bgImage} alt="background" />
             </div>
