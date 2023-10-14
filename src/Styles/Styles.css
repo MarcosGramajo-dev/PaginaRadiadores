@@ -198,6 +198,7 @@ body {
   right: 0;
   width: 100vw;
   background-color: #7FB26F;
+  border-bottom: 1px solid #fff;  
 }
 .closeMenu ul li {
   list-style: none;
@@ -652,6 +653,7 @@ body {
   }
   .services {
     height: 750px;
+    padding-bottom: 60px;
   }
   .services .articles {
     display: flex;
@@ -660,6 +662,9 @@ body {
   }
   .services .articles article {
     min-width: 300px;
+  }
+  .banner{
+    padding: 50px 0;
   }
   .about .info {
     flex-direction: column;
@@ -676,6 +681,12 @@ body {
   }
   .gallery .album .carousel-initialized {
     height: 300px;
+  }
+  .sectionHome h1{
+    font-size: 60px !important;
+  }
+  .containForm div img{
+    max-width: 100%;  
   }
 }
 @media only screen and (max-width: 500px) {
