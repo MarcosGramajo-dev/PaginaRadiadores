@@ -1,27 +1,54 @@
-import about from '../images/about.jpg'
+//import about from '../images/about.jpg'
+import bgImage1 from '../images/gallery/Instagram post - 7.png'
+import bgImage2 from '../images/gallery/Instagram post - 48.png'
+import bgImage3 from '../images/gallery/Instagram post - 3.png'
+import bgImage4 from '../images/gallery/Instagram post - 29.png'
 
 
-import Slide from '../components/slider'
+//import Slide from '../components/slider'
 
 export default function About(){
+    
+
     return(
+
         <div className="about" id="about">
 
-            <div className="marcas">
+            {/* <div className="marcas">
                 <Slide/>
+            </div> */}
+
+            <div className="aboutTitle">
+                SERVICIOS
             </div>
 
-            <div className="info">
-                <div className="imageAbout">
-                    <img src={about} alt="#"/>
-                </div>
-                <div>
-                    <h3>¿QUIENES SOMOS?</h3>
-                    <p>
-                    Más de 50 años en el mercado especializado en Refrigeración de Vehículos, livianos y pesados. Hoy, hemos incorporado la línea de equipos de acondicionadores de aire (repuestos) y todo lo necesario para abastecer a Respuesteros, Talleres y público en general. <br/>
-                    Visite nuestro renovado local…
-                    </p>
-                </div>
+            <div className="service">
+                    <div className='containerCard'>
+                        <div className="card">
+                            <img src={bgImage1} alt="bgImage1"/>
+                            <div>
+                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '400',padding: '0 10px'}} >CAMBIOS DE PANEL</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src={bgImage2} alt="bgImage2"/>
+                            <div>
+                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '400',padding: '0 10px'}} >COLOCACION DE RADIADORES</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src={bgImage3} alt="bgImage3"/>
+                            <div>
+                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '400',padding: '0 10px'}} >FABRICACION DE CAJAS EN ALUMINIO</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src={bgImage4} alt="bgImage4"/>
+                            <div>
+                                <p style={{color: '#ffffff', margin: '0', fontSize: '20px', fontWeight: '400',padding: '0 10px'}} >LIMPIEZA DE RADIADORES</p>
+                            </div>
+                        </div>
+                    </div>
             </div>
 
 

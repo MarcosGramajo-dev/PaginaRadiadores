@@ -5,6 +5,7 @@ import About from './components/about'
 import './App.css';
 import Gallery from './components/gallery'
 import Contact from './components/contact'
+import Banner from './components/banner'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home/>
       <Services/>
       <About/>
+      <Banner/>
       <Gallery/>
       <Contact/>
 
