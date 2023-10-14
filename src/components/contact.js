@@ -96,7 +96,7 @@ export default function Contact(){
                 </div>
             </div>
 
-            <div style={{backgroundColor: '#18181B', color: '#ffffff', width: '100%', textAlign: 'center'}}>
+            <div style={{backgroundColor: '#18181B', color: '#ffffff', width: '100%', textAlign: 'center', marginTop: '30px'}}>
                 <p>Marcos Gramajo desarrollador Front-End. <a style={{color:'#ffffff'}} href='https://marcosgramajo.netlify.app/' target='_blanck'>Portfolio</a></p>
             </div>
             
