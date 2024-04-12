@@ -24,8 +24,9 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
 const analytics = getAnalytics(app);
-analytics
+logEvent(analytics, 'page_view', { page_path: '/' });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
