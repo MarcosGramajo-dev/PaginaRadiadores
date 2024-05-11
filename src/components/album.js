@@ -7,8 +7,8 @@ export default function Gallery() {
         <div className="aboutTitle">
             NUESTROS TRABAJOS
             </div>
-      <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
-        <div class="grid gap-4">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div className="grid gap-4">
           <div>
             <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715048856/album/mpvgpcydwswztknssy4k.jpg'} alt={'Panel para generar estatico'} />
           </div>
@@ -19,7 +19,7 @@ export default function Gallery() {
             <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715049101/album/xvfljcnmcmbhvewc7x2y.jpg'} alt={'Radiador de camion Ivecco, consecuencia de usar agua comun'}/>
           </div>
         </div>
-        <div class="grid gap-4">
+        <div className="grid gap-4">
           <div>
             <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715049193/album/wp9t7if1ltwj8grii5cx.jpg'} alt={'Limpieza de enfriador de aceite para CAT'}/>
           </div>
@@ -30,7 +30,7 @@ export default function Gallery() {
             <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715049195/album/v967p9jyxebym2sy5apf.jpg'} alt={'Panel recien ensamblado, listo para ser horneado'}/>
           </div>
         </div>
-        <div class="grid gap-4">
+        <div className="grid gap-4">
           <div>
             <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715049441/album/b0xxxgrr19o4x1jvf0ft.jpg'} alt={'Cambio de caja supuerio en bronce para radiador de camioneta'}/>
           </div>
@@ -41,7 +41,7 @@ export default function Gallery() {
             <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715049195/album/xesbrkeklxqmhkarw6li.jpg'} alt={'Armado de radiador nuevo para un Ford Cargo 1722'}/>
           </div>
         </div>
-        <div class="grid gap-4">
+        <div className="grid gap-4">
           <div>
             <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715049617/album/cwdhbfwq1syav5ssvdut.jpg'} alt={'Cambio de raidador para VW Suran'} />
           </div>
