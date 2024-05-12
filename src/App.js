@@ -1,5 +1,5 @@
 
-import Home from './components/Home'
+import Home from './pages/Home'
 import Services from './components/services'
 import About from './components/about'
 import './App.css';
@@ -7,6 +7,8 @@ import './App.css';
 import Contact from './components/contact'
 import Banner from './components/banner'
 import Album from './components/album'
+import Faq from './components/faq'
+import Comments from './components/comments';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       {/* <Gallery/> */}
       <Album/>
       <Contact/>
+      <Comments/>
+      <Faq/>
 
     </div>
   );

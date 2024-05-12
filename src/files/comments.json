@@ -1,0 +1,53 @@
+{
+    "data":[
+        {
+            "name": "Pablo Javier Ruiz",
+            "msg": "Exelente",
+            "calification": 5,
+            "link":"https://g.co/kgs/c6hbHQR"
+        },
+        {
+            "name": "Rosario Herrera",
+            "msg": "10 de 10",
+            "calification": 5,
+            "link":"https://g.co/kgs/UafgeA7"
+        },
+        {
+            "name": "Francisco Rodriguez",
+            "msg": "Buena atención, soluciones efectivas, duraderas.",
+            "calification": 5,
+            "link":"https://g.co/kgs/fYkMwMX"
+        },
+        {
+            "name": "José Federico Cortés",
+            "msg": "Lleve el radiador de mi vehículo , para que le hagan una prueba de hermeticidad. Muy buena atención. Muy recomendable",
+            "calification": 5,
+            "link":"https://g.co/kgs/wiELG2M"
+        },
+        {
+            "name": "Cristian Juárez",
+            "msg": "Muy buena atención",
+            "calification": 5,
+            "link":"https://g.co/kgs/VAfo6Tk"
+        },
+        {
+            "name": "Franco Tano",
+            "msg": "Excelente servicio, fui con un problema en el radiador y pude solucionarlo correctamente y ahora funciona sin ningún inconveniente 👏🏻👌🏻 Recomiendo este lugar totalmente!! 😎💪🏻",
+            "calification": 5,
+            "link":"https://g.co/kgs/TGyttuR"
+        },
+        {
+            "name": "Laureano Diaz",
+            "msg": "Muy buena atención y disposición",
+            "calification": 5,
+            "link":"https://g.co/kgs/JnwHB2X"
+        },
+        {
+            "name": "Carlos Marcelo López",
+            "msg": "REALIZAN TRABAJOS EXCELENTES TANTO EN REPARACIÓN COMO EN LA FABRICACIÓN DE RADIADORES NUEVOS. LOS PRECIOS SON BASTANTE ACORDES.",
+            "calification": 5,
+            "link":"https://g.co/kgs/ED3TFMo"
+        }
+            
+    ]
+}

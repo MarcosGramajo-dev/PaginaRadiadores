@@ -12,7 +12,7 @@ export default function About(){
 
     return(
 
-        <div className="about" id="about">
+        <div className="about" id="service">
 
             {/* <div className="marcas">
                 <Slide/>

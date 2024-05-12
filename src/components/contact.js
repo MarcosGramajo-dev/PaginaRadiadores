@@ -44,7 +44,7 @@ export default function Contact(){
       };
 
     return(
-        <div className="contact" id="contact">
+        <div className="contact pb-8" id="contact">
 
             <div className="bgBlur">
                 <div className="containForm">
@@ -94,10 +94,6 @@ export default function Contact(){
                         <p>HORARIOS:  LUNEA A VIERNES  8 A 18 HS</p>
                     </div>
                 </div>
-            </div>
-
-            <div style={{backgroundColor: '#18181B', color: '#ffffff', width: '100%', textAlign: 'center', marginTop: '30px'}}>
-                <p>Marcos Gramajo desarrollador Front-End. <a style={{color:'#ffffff'}} href='https://marcosgramajo.netlify.app/' target='_blanck'>Portfolio</a></p>
             </div>
             
         </div>

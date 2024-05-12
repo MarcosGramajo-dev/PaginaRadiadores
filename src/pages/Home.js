@@ -15,7 +15,7 @@ export default function Home() {
             <ul className='navMobile'>
                 <li><a className="buttonNav" href="#home">INICIO</a></li>
                 <li><a className="buttonNav" href="#service">NUESTROS SERVICIOS</a></li>
-                <li><a className="buttonNav" href="#about">¿QUIENES SOMOS?</a></li>
+                <li><a className="buttonNav" href="#faq">PREGUNTAS FRECUENTES</a></li>
                 <li className="lastButton"><a href="#contact">SOLICITAR TURNO</a></li>
             </ul>
         )
