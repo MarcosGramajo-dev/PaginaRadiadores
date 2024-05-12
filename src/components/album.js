@@ -46,7 +46,7 @@ export default function Gallery() {
             <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715049617/album/cwdhbfwq1syav5ssvdut.jpg'} alt={'Cambio de raidador para VW Suran'} />
           </div>
           <div>
-            <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/v1715049617/album/yggtmlvabrotxezscqez.jpg'} alt={'Cambio de planel en aluminio para radiador moto enduro'}/>
+            <PopUpImage src={'https://res.cloudinary.com/dyjkycesi/image/upload/f_auto,q_auto/v1/album/yggtmlvabrotxezscqez'} alt={'Cambio de planel en aluminio para radiador moto enduro'}/>
           </div>
         </div>
       </div>
