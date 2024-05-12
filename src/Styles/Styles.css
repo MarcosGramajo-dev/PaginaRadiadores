@@ -603,9 +603,25 @@ body {
   .containForm{
     flex-direction: column;
   }
-
   .containForm div {
     margin: auto !important ;
+  }
+}
+@media (max-width: 768px) {
+  .bgImage img {
+      display: none; /* Oculta la imagen grande en pantallas pequeñas */
+  }
+
+  .bgImage img.flex {
+      display: block; /* Muestra la imagen pequeña en pantallas pequeñas */
+  }
+}
+@media (min-width: 769px) {
+  .bgImage img {
+      display: block; /* Muestra la imagen grande en pantallas grandes */
+  }
+  .bgImage img.flex {
+      display: none; /* Oculta la imagen pequeña en pantallas grandes */
   }
 }
 @media only screen and (max-width: 750px) {
