@@ -58,7 +58,8 @@ export default function Home() {
         <section className="sectionHome" id="home">
             <div className='mt-20 py-5 md:h-80 md:flex md:justify-center md:items-center' style={{backgroundColor: '#8B8B8B', opacity: '80%'}}>
                 <div className="bgImage">
-                    <img src={bgImage} alt="background" />
+                    <img src={bgImage} alt="background" className='hidden md:flex' />
+                    <img src={'https://res.cloudinary.com/dyjkycesi/image/upload/f_auto,q_auto/v1/album/webp/votu0zhfzwqyxlawefbo'} alt="background" className='flex md:hidden'/>
                 </div>
                 <div className="bgHome"/>
                 <div className='text-center'>
