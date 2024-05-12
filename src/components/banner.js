@@ -5,6 +5,8 @@ import point1 from '../images/point1.svg'
 import point2 from '../images/point2.svg'
 import point3 from '../images/point3.svg'
 
+import BannerMobile from './bannerMobile'
+
 export default function About(){
     
 
@@ -21,7 +23,7 @@ export default function About(){
             </div>
 
             <div>
-                <div style={{width:'100%', maxWidth:'1100px', display:'flex', margin:'auto'}}>
+                <div className='w-full max-w-[1100px] m-auto hidden md:flex'>
                     <div className="point">
                         <img src={point1} alt="point1"/>
                         <p >Contactenos por <a href="#contact">Aqui</a></p>
@@ -36,6 +38,7 @@ export default function About(){
 
                     </div>
                 </div>
+                <BannerMobile className=""/>
             </div>
 
 

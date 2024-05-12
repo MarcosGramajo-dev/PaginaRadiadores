@@ -50,7 +50,6 @@ body {
   position: absolute;
   width: 100vw;
   z-index: -1;
-  left: -40px;
 }
 
 .bgImage img {
@@ -58,14 +57,14 @@ body {
   filter: blur(3px);
 }
 
-.bgHome{
+/* .bgHome{
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: #8B8B8B;
   opacity: 25%;
   z-index: -1;
-}
+} */
 
 .home header .containerLogo {
   display: flex;
@@ -76,10 +75,10 @@ body {
   height: 40PX;
 }
 
-.home header .containerLogo h1 {
+/* .home header .containerLogo h1 {
   font-size: 20px;
   margin: 0 5px;
-}
+} */
 
 .home header .navDesktop ul {
   display: flex;
@@ -126,12 +125,12 @@ body {
 
 .sectionHome {
   position: relative;
-  height: 400px;
+  /* height: 400px; */
   max-width: 100vw;
   overflow: hidden;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 
@@ -234,10 +233,8 @@ body {
   position: relative;
   max-width: 100vw;
   overflow: hidden;
-  height: 300px;
-  display: flex;
+  /* height: 300px; */
   text-align: center;
-  justify-content: center;
   background-color: #7fb26f;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   clip-path: polygon(0% 100%,100% 90%,100% 0%,0% 0%);
@@ -278,7 +275,7 @@ body {
 .aboutTitle{
   text-align: center;
   width: 100%;
-  font-size: 36px;
+  font-size: 28px;
   margin: 20px 0;
   font-weight: 700;
 }
@@ -319,7 +316,8 @@ body {
 
 .banner{
   width: 100%;
-  height: 430px;
+  /* height: 430px; */
+  min-height: 340px;
   clip-path: polygon(0% 100%,100% 90%, 100% 0%,0% 10%);
   background-color: #7fb26f;
   display: flex;
@@ -342,7 +340,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 33%;
+  /* width: 33%; */
   flex-direction: column;
   text-align: center;
 }
@@ -623,6 +621,9 @@ body {
   .contact .wave4 {
     top: -190px;
   }
+  .bgImage {
+    top: -300px;
+  }
 }
 @media only screen and (max-width: 650px) {
   .imgSelect{
@@ -659,10 +660,10 @@ body {
     position: relative;
     top: 270px;
   }
-  .services {
+  /* .services {
     height: 750px;
     padding-bottom: 60px;
-  }
+  } */
   .services .articles {
     display: flex;
     flex-direction: column;
@@ -690,11 +691,14 @@ body {
   .gallery .album .carousel-initialized {
     height: 300px;
   }
-  .sectionHome h1{
+  /* .sectionHome h1{
     font-size: 60px !important;
-  }
+  } */
   .containForm div img{
     max-width: 100%;  
+  }
+  .bgImage {
+    top: -180px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -708,9 +712,9 @@ body {
     width: 25px;
     height: 25PX;
   }
-  .home header .containerLogo h1 {
+  /* .home header .containerLogo h1 {
     font-size: 16px;
-  }
+  } */
   .sectionHome .wave {
     top: -90px;
   }
@@ -744,11 +748,19 @@ body {
   .slick-dots{
     bottom: -66px !important;
   }
+  .bgImage {
+    top: -100px;
+  }
+
 }
 
 @media only screen and (max-width: 350px) {
   .imgSelect{
     width: 95%;
+  }
+
+  .bgImage {
+    top: -100px;
   }
 }
 

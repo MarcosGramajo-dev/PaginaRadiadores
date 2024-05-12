@@ -35,7 +35,7 @@ export default function Home() {
         <header>
             <div className="containHeader">
                 <div className="containerLogo">
-                    <h1>RADIADORES <span style={{color:'#ffffff'}} >GRAMAJO MOREIRA</span></h1>
+                    <h1 className='' >RADIADORES <span className='text-white' >GRAMAJO MOREIRA</span></h1>
                 </div>
 
                 <nav className="navDesktop">
@@ -56,14 +56,16 @@ export default function Home() {
 
 
         <section className="sectionHome" id="home">
-            <div className="bgImage">
-                <img src={bgImage} alt="background" />
-            </div>
-            <div className="bgHome"/>
-            <div style={{textAlign: 'center', position: 'relative', top:'25px'}}>
-                <h1 style={{margin:'0', color: '#000000', fontSize: '80px', textShadow: '1px 1px 2px white'}} > RADIADORES </h1>
-                <h1 style={{margin:'0', color: '#ffffff', fontSize: '80px'}}>GRAMAJO MOREIRA</h1>
-                <h2 className="text-2xl" style={{margin:'0', color: '#ffffff'}}>Venta y reparación</h2>
+            <div className='mt-20 py-5 md:h-80 md:flex md:justify-center md:items-center' style={{backgroundColor: '#8B8B8B', opacity: '80%'}}>
+                <div className="bgImage">
+                    <img src={bgImage} alt="background" />
+                </div>
+                <div className="bgHome"/>
+                <div className='text-center'>
+                    <h1 className='m-0 text-black text-4xl font-semibold md:text-8xl' style={{textShadow: '1px 1px 2px white'}} > RADIADORES </h1>
+                    <h1 className='m-0 text-white text-2xl font-semibold md:text-6xl'>GRAMAJO MOREIRA</h1>
+                    <h2 className="m-0 text-white md:text-3xl">Venta y reparación</h2>
+                </div>
             </div>
 
         </section>
