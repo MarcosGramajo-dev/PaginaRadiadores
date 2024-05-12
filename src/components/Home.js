@@ -2,7 +2,7 @@
 // import fondo from '../images/fondo1.png'
 import menu from '../images/menu.svg'
 import { useState } from 'react';
-import bgImage from '../images/gallery/Instagram post - 20.png'
+import bgImage from '../images/banner/Instagram post - 20.webp'
 
 
 export default function Home() {
