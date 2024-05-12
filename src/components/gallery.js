@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Slider from "react-slick";
 //import wave from '../images/wave3.svg'
-import close from '../images/close.png'
+import close from '../images/close.webp'
 
 
 function importAll(r) {

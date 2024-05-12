@@ -1,8 +1,8 @@
 //import about from '../images/about.jpg'
-import bgImage1 from '../images/gallery/Instagram post - 7.png'
-import bgImage2 from '../images/gallery/Instagram post - 48.png'
-import bgImage3 from '../images/gallery/Instagram post - 3.png'
-import bgImage4 from '../images/gallery/Instagram post - 29.png'
+import bgImage1 from '../images/services/Instagram post - 7.webp'
+import bgImage2 from '../images/services/Instagram post - 48.webp'
+import bgImage3 from '../images/services/Instagram post - 3.webp'
+import bgImage4 from '../images/services/Instagram post - 29.webp'
 
 
 //import Slide from '../components/slider'

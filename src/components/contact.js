@@ -1,6 +1,6 @@
 import map from '../images/map.svg'
 import { useState } from 'react';
-import company from '../images/image 10.png'
+import company from '../images/image 10.webp'
 
 
 export default function Contact(){
