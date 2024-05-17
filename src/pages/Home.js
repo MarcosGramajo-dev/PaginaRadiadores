@@ -2,6 +2,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import menu from '../images/menu.svg'
 import { useState } from 'react';
 import bgImage from '../images/banner/bannerP.webp'
+import bgImageM from '../images/banner/bannerPM.webp'
 
 
 export default function Home() {
@@ -58,7 +59,7 @@ export default function Home() {
             <div className='mt-20 py-5 md:h-80 md:flex md:justify-center md:items-center' style={{backgroundColor: '#8B8B8B', opacity: '80%'}}>
                 <div className="bgImage">
                     <img src={bgImage} alt="background" className='hidden md:flex' />
-                    <img src={'https://res.cloudinary.com/dyjkycesi/image/upload/f_auto,q_auto/v1/album/webp/votu0zhfzwqyxlawefbo'} alt="background" className='flex md:hidden'/>
+                    <img src={bgImageM} alt="background" className='flex md:hidden'/>
                 </div>
                 <div className="bgHome"/>
                 <div className='text-center'>
