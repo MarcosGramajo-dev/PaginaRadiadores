@@ -1,8 +1,7 @@
-// import wave from '../images/wave.svg'
-// import fondo from '../images/fondo1.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import menu from '../images/menu.svg'
 import { useState } from 'react';
-import bgImage from '../images/banner/Instagram post - 20.webp'
+import bgImage from '../images/banner/bannerP.webp'
 
 
 export default function Home() {
@@ -43,12 +42,12 @@ export default function Home() {
                 </nav>
 
                 {open ? <div className="closeMenu" open={open} onClick={handleClick}>
-                            <img src={menu} alt="close"/>
+                            <LazyLoadImage src={menu} alt="close"/>
                             {nav()}
                         </div>
                     :   
                         <div className="menu" open={open} onClick={handleClick}>
-                            <img src={menu} alt="menu"/>
+                            <LazyLoadImage src={menu} alt="menu"/>
                         </div>
                 }
             </div>

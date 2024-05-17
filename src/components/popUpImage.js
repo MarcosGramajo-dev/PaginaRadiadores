@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import {
   Dialog,
   DialogBody,
@@ -19,7 +20,7 @@ export default function PopUpImage(props) {
         // className="h-64 w-96 cursor-pointer overflow-hidden transition-opacity hover:opacity-90"
         onClick={handleOpen}
       >
-        <img
+        <LazyLoadImage
           alt="nature"
           className="h-full w-full object-cover object-center cursor-pointer"
           src={props.src}
@@ -28,10 +29,10 @@ export default function PopUpImage(props) {
        <Dialog size="xl" open={open} handler={handleOpen}>
        <DialogHeader className="justify-between">
             <h2>{props.alt}</h2>
-            <img className="h-10 cursor-pointer" src={close} alt='close' onClick={handleOpen}/>
+            <LazyLoadImage className="h-10 cursor-pointer" src={close} alt='close' onClick={handleOpen}/>
        </DialogHeader>
         <DialogBody className="flex justify-center items-center">
-          <img
+          <LazyLoadImage
             alt="nature"
             className="h-full rounded-lg object-cover object-center"
             src={props.src}

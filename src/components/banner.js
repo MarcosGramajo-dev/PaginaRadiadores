@@ -1,5 +1,6 @@
 
 //import Slide from './slider'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import point1 from '../images/point1.svg'
 import point2 from '../images/point2.svg'
@@ -25,15 +26,15 @@ export default function About(){
             <div>
                 <div className='w-full max-w-[1100px] m-auto hidden md:flex'>
                     <div className="point">
-                        <img src={point1} alt="point1"/>
+                        <LazyLoadImage src={point1} alt="point1"/>
                         <p >Contactenos por <a href="#contact">Aqui</a></p>
                     </div>
                     <div className="point">
-                        <img src={point2} alt="point2"/>
+                        <LazyLoadImage src={point2} alt="point2"/>
                         <p  >Realizamos la cotizacion</p>
                     </div>
                     <div className="point">
-                        <img src={point3} alt="point3"/>
+                        <LazyLoadImage src={point3} alt="point3"/>
                         <p>Todos nuestros trabajos tienen una garantia de 6 meses</p>
 
                     </div>

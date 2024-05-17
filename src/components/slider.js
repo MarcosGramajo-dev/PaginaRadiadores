@@ -12,33 +12,33 @@ import marca7 from '../images/marca7.png'
 
 export default function Slide() {
 
-  let show = 3;
+  // let show = 3;
   
 
-  function slide(){
-    if(window.screen.width < 650){
-      show = 1
-    }
-  }
+  // function slide(){
+  //   if(window.screen.width < 650){
+  //     show = 1
+  //   }
+  // }
 
-  slide();
+  // slide();
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: show,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 4000,
-    autoplaySpeed: 0,
-    cssEase: "linear",
-    arrows: false
-  };
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   slidesToShow: show,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   speed: 4000,
+  //   autoplaySpeed: 0,
+  //   cssEase: "linear",
+  //   arrows: false
+  // };
     
 
     return (
       <div className="slide">
-        <Slider { ...settings }>
+        {/* <Slider { ...settings }>
           <div>
             <img src={marca1} alt="#"/>
           </div>
@@ -60,7 +60,7 @@ export default function Slide() {
           <div>
             <img src={marca7} alt="#"/>
           </div>
-        </Slider>
+        </Slider> */}
       </div>
     );
   }

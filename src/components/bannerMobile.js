@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import {
     Timeline,
     TimelineItem,
@@ -21,7 +23,7 @@ import point3 from '../images/point3.svg'
             <TimelineConnector />
             <TimelineHeader>
               <TimelineIcon className="p-2 bg-[#7fb26f]">
-                <img src={point1} alt="point1" className="w-12"/>
+                <LazyLoadImage alt="point1" src={point1}  className="w-12"/>
                 {/* <HomeIcon className="h-4 w-4" /> */}
               </TimelineIcon>
               <Typography variant="h5" color="white">
@@ -36,7 +38,7 @@ import point3 from '../images/point3.svg'
             <TimelineConnector />
             <TimelineHeader>
               <TimelineIcon className="p-2 bg-[#7fb26f]">
-                <img src={point2} alt="point2" className="w-12"/>
+                <LazyLoadImage src={point2} alt="point2" className="w-12"/>
                 {/* <BellIcon className="h-4 w-4" /> */}
               </TimelineIcon>
               <Typography variant="h5" color="white">
@@ -50,7 +52,7 @@ import point3 from '../images/point3.svg'
           <TimelineItem>
             <TimelineHeader>
               <TimelineIcon className="p-2 bg-[#7fb26f]">
-                <img src={point3} alt="point3" className="w-12"/>
+                <LazyLoadImage src={point3} alt="point3" className="w-12"/>
               </TimelineIcon>
               <Typography variant="h5" color="white">
                 <p>Todos nuestros trabajos tienen una garantia de 6 meses</p>

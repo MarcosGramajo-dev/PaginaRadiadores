@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import map from '../images/map.svg'
 import { useState } from 'react';
 import company from '../images/image 10.webp'
@@ -77,12 +79,12 @@ export default function Contact(){
                         <h3 className="aboutTitle">
                             ¿DONDE ESTAMOS?                        
                         </h3>
-                        <img src={map} alt="map" />
+                        <LazyLoadImage src={map} alt="map" />
                     </div>
                 </div>
                 <div className='containForm'>
                     <div style={{textAlign:'center'}}>
-                        <img src={company} alt="map" />
+                        <LazyLoadImage src={company} alt="map" />
                     </div>
                     <div>
                         <h3 className="aboutTitle">
