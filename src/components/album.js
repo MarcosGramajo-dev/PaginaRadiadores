@@ -1,7 +1,8 @@
+import React from 'react'
 import PopUpImage from './popUpImage'
 
 
-export default function Gallery() {
+const Gallery = () => {
   return (
     <div className="m-auto mb-6" style={{width:'100%', maxWidth:'1100px'}}>
         <div className="aboutTitle">
@@ -53,3 +54,5 @@ export default function Gallery() {
     </div>
   );
 }
+
+export default React.memo(Gallery);

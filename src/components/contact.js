@@ -1,11 +1,11 @@
+import React, { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import map from '../images/map.svg'
-import { useState } from 'react';
 import company from '../images/image 10.webp'
 
 
-export default function Contact(){
+const Contact = () => {
 
     const [formData, setFormData] = useState({
         nombre: '',
@@ -101,3 +101,5 @@ export default function Contact(){
         </div>
     )
 }
+
+export default React.memo(Contact)

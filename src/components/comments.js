@@ -1,7 +1,8 @@
+import React from 'react';
 import comments from '../files/comments.json'
 import { TestimonialCard } from './TestimonialCard'
 
-export default function Comments() {
+const Comments = () => {
     
     return(
         <div className='flex justify-center items-center py-8'>
@@ -16,3 +17,5 @@ export default function Comments() {
         </div>
     )
 }
+
+export default React.memo(Comments)

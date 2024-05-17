@@ -4,47 +4,47 @@ import { useState } from 'react';
 // import close from '../images/close.webp'
 
 
-function importAll(r) {
-  return r.keys().map(r);
-}
+// function importAll(r) {
+//   return r.keys().map(r);
+// }
 
-const images = importAll(require.context('../images/gallery', false, /\.(png|jpe?g|svg)$/));
-let imgSelect;
+// const images = importAll(require.context('../images/gallery', false, /\.(png|jpe?g|svg)$/));
+// let imgSelect;
 
 export default function Gallery() {
-  let row = 2;
-  let slidesToShow = 3;
+  // let row = 2;
+  // let slidesToShow = 3;
   
-  const [toggleShadow, setToggleShadow] = useState(false)
+  // const [toggleShadow, setToggleShadow] = useState(false)
 
-  function slide(){
-    if(window.screen.width < 650){
-      row = 2
-      slidesToShow = 2
-    }
-  }
+  // function slide(){
+  //   if(window.screen.width < 650){
+  //     row = 2
+  //     slidesToShow = 2
+  //   }
+  // }
 
-  slide();
+  // slide();
 
-    const settings = {
-      dots: true,
-      infinite: true,
-      slidesToShow: slidesToShow,
-      slidesToScroll: 1,
-      className: 'album',
-      autoplay: true,
-      speed: 4000,
-      autoplaySpeed: 4000,
-      cssEase: "linear",
-      rows: row,
-      arrows: false
-    };
+  //   const settings = {
+  //     dots: true,
+  //     infinite: true,
+  //     slidesToShow: slidesToShow,
+  //     slidesToScroll: 1,
+  //     className: 'album',
+  //     autoplay: true,
+  //     speed: 4000,
+  //     autoplaySpeed: 4000,
+  //     cssEase: "linear",
+  //     rows: row,
+  //     arrows: false
+  //   };
 
-    function modal(e){
-      setToggleShadow(!toggleShadow);
-      console.log("click", toggleShadow)
-      imgSelect = e;
-    }
+  //   function modal(e){
+  //     setToggleShadow(!toggleShadow);
+  //     console.log("click", toggleShadow)
+  //     imgSelect = e;
+  //   }
 
     return (
       <div className="gallery">

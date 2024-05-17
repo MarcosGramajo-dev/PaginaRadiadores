@@ -1,5 +1,6 @@
 
 //import Slide from './slider'
+import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import point1 from '../images/point1.svg'
@@ -8,7 +9,7 @@ import point3 from '../images/point3.svg'
 
 import BannerMobile from './bannerMobile'
 
-export default function About(){
+const About = () => {
     
 
     return(
@@ -48,10 +49,4 @@ export default function About(){
 }
 
 
-
-
-
-
-
-
-
+export default React.memo(About)

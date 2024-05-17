@@ -20,7 +20,7 @@ function Icon({ id, open }) {
   );
 }
  
-export default function Faq() {
+const Faq = () => {
   const [open, setOpen] = React.useState(0);
  
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
@@ -80,3 +80,5 @@ export default function Faq() {
     </div>
   );
 }
+
+export default React.memo(Faq)

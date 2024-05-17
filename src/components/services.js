@@ -1,3 +1,4 @@
+import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import shopBanner from '../images/shopBanner.svg'
@@ -9,7 +10,7 @@ import facebannerM from '../images/facebannerM.svg'
 import toolsBannerM from '../images/toolsBannerM.svg'
 
 
-export default function services(){
+const services = () => {
     return(
         <div className="services flex justify-center" >
             <div className="hidden justify-center items-center px-4 py-6 gap-2 md:flex md:max-w-[1100px] md:justify-between md:gap-16">
@@ -43,20 +44,4 @@ export default function services(){
     )
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default React.memo(services)

@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import close from '../images/close.svg'
  
-export default function PopUpImage(props) {
+const PopUpImage = (props) => {
   const [open, setOpen] = useState(false);
  
   const handleOpen = () => setOpen((cur) => !cur);
@@ -42,3 +42,5 @@ export default function PopUpImage(props) {
     </>
   );
 }
+
+export default React.memo(PopUpImage)

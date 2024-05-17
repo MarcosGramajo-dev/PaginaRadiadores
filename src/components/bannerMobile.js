@@ -1,3 +1,4 @@
+import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import {
@@ -15,7 +16,7 @@ import point1 from '../images/point1.svg'
 import point2 from '../images/point2.svg'
 import point3 from '../images/point3.svg'
    
-  export default function BannerMobile() {
+const BannerMobile = () => {
     return (
       <div className="w-[32rem] block md:hidden px-4">
         <Timeline>
@@ -66,3 +67,5 @@ import point3 from '../images/point3.svg'
       </div>
     );
   }
+
+  export default React.memo( BannerMobile)
